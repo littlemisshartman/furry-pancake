@@ -1,0 +1,5 @@
+<LsForm labelWidth="small">
+<LsFormItem :label="letter" :primaryInputRef="'input_'+letter"> vfor
+    <input :ref="'input_'+letter">
+    {{percent}}
+</LsFormItem>
